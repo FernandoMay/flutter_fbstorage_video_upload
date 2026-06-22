@@ -1,22 +1,22 @@
-# flutter_fbstorage_video_upload
+# Flutter Video Sharing app
 
-## Overview
+![final.gif](https://www.learningsomethingnew.com/flutter-video-hls/final.gif)
 
-| Attribute | Details |
-|-----------|---------|
-| **Language** | Dart |
-| **Size** | ~0.1 MB |
-| **Last Updated** | 2020-09-01T01:33:23Z |
+An example app to demonstrate video sharing using Firebase Cloud Storage and with HLS.
+
+Read the full tutorial in my [blog](https://www.learningsomethingnew.com/flutter-video-upload-firebase-storage-hls).
 
 ## Getting Started
 
-```bash
-git clone https://github.com/FernandoMay/flutter_fbstorage_video_upload.git
-cd flutter_fbstorage_video_upload
-flutter pub get
-flutter run
-```
+You need to setup Firebase credentials in order to run the sample:
 
-## License
+### Firebase setup
+Complete the setup process as described [here](https://firebase.google.com/docs/flutter/setup).
 
-MIT
+You should add two files:
+- Android: `android/app/google-services.json`
+- iOS: `ios/Runner/GoogleService-Info.plist`
+
+
+### Run the project
+Run the project as usual using `flutter run`
